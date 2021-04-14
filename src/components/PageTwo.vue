@@ -4,7 +4,6 @@
             <div class="content-title">
                 <div>After rowing in the sea for a while, let us explore the deep sea. Are you ready?</div>
             </div>
-
         </div>
         <div class="part activeBg" ref="activeBg" :style="{'background-position-y':positionY1+'px'}"></div>
         <div class="part part2 content">
@@ -61,7 +60,7 @@
     }
     .page-two .activeBg{
         height: 40%;
-        background: url("../assets/transform.png") no-repeat fixed;
+        background: url("../assets/img/transform.png") no-repeat fixed;
         background-size: 100% 100%
     }
     .page-two .part{

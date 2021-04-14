@@ -94,8 +94,9 @@
         width: 90%;
         margin: 15px 0;
         color: white;
-        font-size: 10px;
+        font-size: 12px;
         transition: 0.4s;
+        font-family: 'doudou',serif;
     }
     .card .bottom-item .learn-more{
         width: 125px;
@@ -104,6 +105,7 @@
         color: white;
         border:3px solid #BA72CB;
         border-radius: 2px;
+        font-family: 'BalooBhaina', serif;
     }
     .card .bottom-item .learn-more span{
         float: right;

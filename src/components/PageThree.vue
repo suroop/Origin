@@ -22,12 +22,11 @@
               timer:undefined,
               cards:[
                   {
-                      url:require('@/assets/pic1.png'),
+                      url:require('@/assets/img/pic1.png'),
                       number:1,
                       title:'Hermit',
                       middle:2,
-                      content:'Hermit crabs are also known as "white houses" and "dry houses".\n'+
-                          'They mainly live on the edge of the Yellow Sea and the southern seas,\n'+
+                      content: 'Hermit mainly live on the edge of the Yellow Sea and the southern seas,\n'+
                           'generally in the crevices between beaches and rocks on the seashore.\n'+
                           ' Hermit crabs use snail shells as their parasites,Normally crawling under the shell, \n'+
                           'when frightened, it will immediately retract the body into the mayfly\'s shell.',
@@ -35,7 +34,7 @@
                       index:0
                   },
                   {
-                      url:require('@/assets/pic2.png'),
+                      url:require('@/assets/img/pic2.png'),
                       number:2,
                       title:'Starfish',
                       content: 'A type of echinoderms with a star-shaped body,\n'+
@@ -47,11 +46,10 @@
                       index:1
                   },
                   {
-                      url:require('@/assets/pic3.png'),
+                      url:require('@/assets/img/pic3.png'),
                       number:3,
                       title: 'Sharks',
                       content: 'Little Sharks live in the vast and boundless ocean. They were born with golden colors.\n' +
-                          'little sharks has a big head, the size of a soybean\n'+
                           'They have a pair of piercing eyes and a pointed mouth with white jade teeth.\n'+
                           ' They have a pale yellow triangular fin on their back and sides,\n'+
                           ' which look like sails on a small sailboat. Its tail is also triangular',
@@ -60,20 +58,19 @@
                       index:2
                   },
                   {
-                      url:require('@/assets/pic4.png'),
+                      url:require('@/assets/img/pic4.png'),
                       number:4,
                       title:'Octopuses',
                       middle:2,
                       content:'Octopuses are easily mistaken for fish animals, \n'+
                           'but they belong to mollusks, and octopuses and squids are soft.\n'+
                           'The legs are connected to the head, and the mouth is in the middle of the legs.\n'+
-                          'Squids like bright lights, and they often gather in places with light.\n'+
-                          'So when you catch squid at night, just light up the water',
+                          'Squids like bright lights, and they often gather in places with light.\n',
                       ML:0,
                       index:3
                   },
                   {
-                      url:require('@/assets/pic5.png'),
+                      url:require('@/assets/img/pic5.png'),
                       number:5,
                       title:'Dolphin',
                       middle:2,
@@ -85,7 +82,7 @@
                       index:4
                   },
                   {
-                      url:require('@/assets/pic6.png'),
+                      url:require('@/assets/img/pic6.png'),
                       number:6,
                       title:'Mermaid',
                       middle:2,
@@ -96,7 +93,7 @@
                       index:5
                   },
                   {
-                      url:require('@/assets/pic7.png'),
+                      url:require('@/assets/img/pic7.png'),
                       number:7,
                       title:'Whales',
                       content:'Whales live in the ocean. \n'+
@@ -108,11 +105,10 @@
                       index:6
                   },
                   {
-                      url:require('@/assets/pic1.png'),
+                      url:require('@/assets/img/pic1.png'),
                       number:1,
                       title:'Hermit',
-                      content:'Hermit crabs are also known as "white houses" and "dry houses".\n'+
-                          'They mainly live on the edge of the Yellow Sea and the southern seas,\n'+
+                      content:'Hermit mainly live on the edge of the Yellow Sea and the southern seas,\n'+
                           'generally in the crevices between beaches and rocks on the seashore.\n'+
                           ' Hermit crabs use snail shells as their parasites,Normally crawling under the shell, \n'+
                           'when frightened, it will immediately retract the body into the mayfly\'s shell.',
@@ -121,7 +117,7 @@
                       index:7
                   },
                   {
-                      url:require('@/assets/pic2.png'),
+                      url:require('@/assets/img/pic2.png'),
                       number:2,
                       title:'Starfish',
                       content: 'A type of echinoderms with a star-shaped body,\n'+
@@ -133,11 +129,10 @@
                       index:8
                   },
                   {
-                      url:require('@/assets/pic3.png'),
+                      url:require('@/assets/img/pic3.png'),
                       number:3,
                       title: 'Sharks',
                       content: 'Little Sharks live in the vast and boundless ocean. They were born with golden colors.\n' +
-                          'little sharks has a big head, the size of a soybean\n'+
                             'They have a pair of piercing eyes and a pointed mouth with white jade teeth.\n'+
                           ' They have a pale yellow triangular fin on their back and sides,\n'+
                           ' which look like sails on a small sailboat. Its tail is also triangular',
@@ -201,7 +196,7 @@
         width: 100%;
         height: 100vh;
         position: relative;
-        background-image: url("../assets/bg3.png");
+        background-image: url("../assets/img/bg3.png");
     }
     .items{
         position: absolute;
@@ -238,6 +233,7 @@
         border: none;
         background-color: #BD507D;
         color: white;
+        font-family: 'BalooBhaina', serif;
     }
     .buttons .button-group .arrow{
         box-sizing: border-box;
@@ -253,7 +249,6 @@
         width: 150px;
         font-weight: 600;
         font-size: 18px;
-        font-family: 'SimHei',serif;
     }
     .buttons .button-group .right-btn{
         border-right: 1px solid #EBEBEB;

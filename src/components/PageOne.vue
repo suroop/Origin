@@ -7,7 +7,7 @@
             <p><span>&</span></p>
             <div style="text-align: center">find the <span>origin</span> of <span>life</span></div>
         </div>
-        <div class="parallax1"><img src="../assets/main.png" alt="parallax1"></div>
+        <div class="parallax1"><img src="../assets/img/main.png" alt="parallax1"></div>
         <div class="center-button"><button class="btn">Get started</button></div>
     </div>
 </template>
@@ -47,7 +47,7 @@
 <style>
     .page-one{
         user-select: none;
-        background-image: url("../assets/bg.png");
+        background-image: url("../assets/img/bg.png");
         width: 100%;
         height: 100vh;
         background-color: skyblue;

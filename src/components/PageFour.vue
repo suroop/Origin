@@ -1,6 +1,6 @@
 <template>
     <div class="page-four">
-        <div class="foo"><img src="../assets/foo.png" alt=""></div>
+        <div class="foo"><img src="../assets/img/foo.png" alt=""></div>
         <div class="join">
 
             <div class="textField">
@@ -50,10 +50,7 @@
 </script>
 
 <style>
-    @font-face{
-        font-family:'AlegreyaSansSC';
-        src:url('../assets/font/AlegreyaSansSC-ThinItalic.ttf');
-    }
+
     .page-four{
         width: 100%;
         height: 100vh;

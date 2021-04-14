@@ -2,13 +2,13 @@
     <div class="top" :style="{top:ST+'px'}">
         <div class="left-col col">
             <ul>
-                <li :style="changeColor">Missions</li>
-                <li :style="changeColor">Creatures &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down"></i></li>
+                <li :style="changeColor" @click="sentPage(2)">Missions</li>
+                <li :style="changeColor" @click="sentPage(3)">Creatures &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down"></i></li>
             </ul></div>
-        <div class="mid"><img src="../assets/logo.png" alt="logo"></div>
+        <div class="mid"><img src="../assets/img/logo.png" alt="logo"></div>
         <div class="right-col col">
             <ul>
-                <li :style="changeColor">JoinUs</li>
+                <li :style="changeColor" @click="sentPage(4)">JoinUs</li>
                 <li :style="changeColor">Early Access</li>
             </ul></div>
     </div>
@@ -38,6 +38,11 @@
                 }else if (i%2===1){
                     this.changeColor.color = "black";
                 }
+            }
+        },
+        methods:{
+            sentPage(page){
+                this.$emit('getPage', page);
             }
         }
     }
