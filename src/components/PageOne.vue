@@ -51,6 +51,8 @@
         width: 100%;
         height: 100vh;
         background-color: skyblue;
+        background-repeat: no-repeat;
+        background-size: cover;
         position: relative;
     }
     .pd-l{

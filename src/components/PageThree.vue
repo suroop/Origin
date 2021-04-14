@@ -197,6 +197,8 @@
         height: 100vh;
         position: relative;
         background-image: url("../assets/img/bg3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .items{
         position: absolute;
