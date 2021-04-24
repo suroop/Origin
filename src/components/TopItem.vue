@@ -3,7 +3,7 @@
         <div class="left-col col">
             <ul>
                 <li :style="changeColor" @click="sentPage(2)">Missions</li>
-                <li :style="changeColor" @click="sentPage(3)">Creatures &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down"></i></li>
+                <li :style="changeColor" @click="sentPage(3)">Creatures</li>
             </ul></div>
         <div class="mid"><img src="../assets/img/logo.png" alt="logo"></div>
         <div class="right-col col">

@@ -60,7 +60,7 @@
     }
     .page-two .activeBg{
         height: 40%;
-        background: url("../assets/img/transform.png") no-repeat fixed;
+        background: url("../assets/img/pageT.png") no-repeat fixed;
         background-size: 100% 100%
     }
     .page-two .part{
@@ -78,6 +78,9 @@
         font-family: 'FZYaoti', serif;
         font-size: 35px;
         font-weight: 800;
+    }
+    .page-two .part2{
+        background-color: #2FABDF;
     }
     .page-two .part2 .content-title{
         text-align: center;

@@ -1,14 +1,14 @@
 <template>
-    <div class="page-one" :style="{'background-position-x':BPX,'background-position-y':BPY}">
+    <div class="page-one" ref="pageOne" :style="{'background-position-x':BPX,'background-position-y':BPY}">
         <div class="pd-l"></div>
-        <div class="big-title">Origin</div>
+        <div class="big-title" ref="bigTitle">Origin</div>
         <div class="sub-title">
             <div style="text-align: center">let's <span>explore</span> the <span>ocean</span></div>
             <p><span>&</span></p>
             <div style="text-align: center">find the <span>origin</span> of <span>life</span></div>
         </div>
-        <div class="parallax1"><img src="../assets/img/main.png" alt="parallax1"></div>
-        <div class="center-button"><button class="btn">Get started</button></div>
+        <div class="parallax1" ref="parallax"><img src="../assets/img/main.png" alt="parallax1"></div>
+        <div class="center-button" ref="btn"><button class="btn">Get started</button></div>
     </div>
 </template>
 
@@ -18,11 +18,13 @@
         data(){
           return {
                   BPX:`0px`,
-                  BPY:`0px`
+                  BPY:`0px`,
+                  rate:``,
           }
         },
         mounted(){
             window.addEventListener('mousemove',this.Parallax,true);
+            this.rate = window.innerHeight /750;
         },
         methods:{
             Parallax(e){
@@ -37,7 +39,7 @@
                 return `translate(${horizontal * offset / 0.5}px, ${vertical * offset / 0.5}px)`
             },
             calculateBg(horizontal, vertical, offset){
-                this.BPX= `${(horizontal * offset / 0.5)-15}px`;
+                this.BPX = `${(horizontal * offset / 0.5)-15}px`;
                 this.BPY = `${(vertical * offset / 0.9)-2}px`;
             }
         }
